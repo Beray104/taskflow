@@ -2,10 +2,6 @@
 
 Yazılım staj projesi kapsamında geliştirilen, vanilla HTML/CSS/JS ile yazılmış Kanban tabanlı görev yönetim uygulaması.
 
-![version](https://img.shields.io/badge/versiyon-2.0.0-blue)
-
----
-
 ## Özellikler
 
 - **Kanban Panosu** — Yapılacak / Devam Ediyor / Tamamlandı sütunları, drag & drop ile taşıma
