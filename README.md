@@ -2,7 +2,7 @@
 
 Yazılım staj projesi kapsamında geliştirilen, vanilla HTML/CSS/JS ile yazılmış Kanban tabanlı görev yönetim uygulaması.
 
-![preview](https://img.shields.io/badge/demo-canlı-brightgreen) ![version](https://img.shields.io/badge/versiyon-2.0.0-blue) ![license](https://img.shields.io/badge/lisans-MIT-lightgrey)
+![version](https://img.shields.io/badge/versiyon-2.0.0-blue)
 
 ---
 
@@ -78,9 +78,3 @@ taskflow/
 - Veriler `taskflow_tasks_v2` anahtarıyla `localStorage`'a kaydedilir.
 - Görev verisi sıfırlamak için tarayıcı geliştirici araçlarından `localStorage.clear()` çalıştırın.
 - Projeler şu an statik tanımlıdır; ilerleyen sürümde dinamik proje oluşturma eklenebilir.
-
----
-
-## Lisans
-
-MIT
