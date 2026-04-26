@@ -30,14 +30,27 @@ Harici framework, build aracı veya bağımlılık yoktur.
 
 ---
 
-## Kurulum
+## Nasıl Çalıştırılır?
+
+Hiçbir kurulum, sunucu, Node.js veya Python gerekmez — sadece bir tarayıcı yeterli.
+
+### Yol 1 — ZIP indirerek (en kolay)
+
+1. Bu sayfada yukarıdaki yeşil **`<> Code`** butonuna tıklayın.
+2. Açılan menüden **`Download ZIP`** seçeneğine tıklayın.
+3. İndirilen ZIP dosyasını bilgisayarınızda bir klasöre çıkartın.
+4. İçindeki **`index.html`** dosyasına çift tıklayın — uygulama tarayıcıda açılır.
+
+### Yol 2 — Git ile klonlayarak
 
 ```bash
 git clone https://github.com/Beray104/taskflow.git
 cd taskflow
 ```
 
-`index.html` dosyasını herhangi bir tarayıcıda açın — sunucu gerekmez.
+Sonra `index.html` dosyasını herhangi bir tarayıcıda açın.
+
+> Chrome, Firefox, Edge, Safari — herhangi bir modern tarayıcıda çalışır.
 
 ---
 
