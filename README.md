@@ -1,0 +1,84 @@
+# TaskFlow — Akıllı Proje Yönetimi
+
+Yazılım staj projesi kapsamında geliştirilen, tek sayfa (vanilla HTML/CSS/JS) Kanban tabanlı görev yönetim uygulaması.
+
+![preview](https://img.shields.io/badge/demo-canlı-brightgreen) ![version](https://img.shields.io/badge/versiyon-2.0.0-blue) ![license](https://img.shields.io/badge/lisans-MIT-lightgrey)
+
+---
+
+## Özellikler
+
+- **Kanban Panosu** — Yapılacak / Devam Ediyor / Tamamlandı sütunları, drag & drop ile taşıma
+- **Görev Yönetimi** — Ekleme, düzenleme, silme (onay modalı); öncelik, proje, etiket, son tarih, açıklama, ilerleme (%) alanları
+- **Filtreleme & Arama** — Önceliğe göre filtre, projeye göre filtre, başlık/açıklama/etiket üzerinden canlı arama
+- **Son Tarih Takibi** — Gecikmiş / bu hafta / yakın badge'leri, sağ panelde yaklaşan tarihler listesi
+- **İstatistik Kartları** — Toplam görev, tamamlanma yüzdesi, devam eden görev, gecikme sayısı
+- **Aktivite Akışı** — Her işlem (ekleme, taşıma, silme, güncelleme) sağ panelde kaydedilir
+- **localStorage Kalıcılığı** — Sayfa yenilense de veriler kaybolmaz
+- **JSON Dışa Aktarma** — Görev listesini tek tıkla `.json` dosyası olarak indir
+- **Klavye Kısayolları** — `Ctrl+N` yeni görev, `Ctrl+K` / `/` arama, `Esc` modal kapat
+
+---
+
+## Kullanılan Teknolojiler
+
+| Katman | Teknoloji |
+|--------|-----------|
+| Markup | HTML5 |
+| Stil | CSS3 (CSS Variables, Grid, Flexbox, animasyonlar) |
+| Mantık | Vanilla JavaScript (ES6+) |
+| Yazı Tipleri | [Syne](https://fonts.google.com/specimen/Syne) + [DM Mono](https://fonts.google.com/specimen/DM+Mono) (Google Fonts) |
+| Depolama | localStorage |
+
+Harici framework, build aracı veya bağımlılık yoktur.
+
+---
+
+## Kurulum
+
+```bash
+git clone https://github.com/kullaniciadi/taskflow.git
+cd taskflow
+```
+
+`index.html` dosyasını herhangi bir tarayıcıda açın — sunucu gerekmez.
+
+---
+
+## Ekran Görüntüleri
+
+> *(Buraya proje ekran görüntüsü eklenebilir)*
+
+---
+
+## Klavye Kısayolları
+
+| Kısayol | İşlem |
+|---------|-------|
+| `Ctrl + N` | Yeni görev ekle |
+| `Ctrl + K` veya `/` | Aramaya odaklan |
+| `Esc` | Açık modalı kapat |
+| `Enter` | Modal açıkken görevi kaydet |
+
+---
+
+## Proje Yapısı
+
+```
+taskflow/
+└── index.html   # Tüm uygulama tek dosyada (HTML + CSS + JS)
+```
+
+---
+
+## Geliştirme Notları
+
+- Veriler `taskflow_tasks_v2` anahtarıyla `localStorage`'a kaydedilir.
+- Görev verisi sıfırlamak için tarayıcı geliştirici araçlarından `localStorage.clear()` çalıştırın.
+- Projeler şu an statik tanımlıdır; ilerleyen sürümde dinamik proje oluşturma eklenebilir.
+
+---
+
+## Lisans
+
+MIT
