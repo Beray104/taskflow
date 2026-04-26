@@ -1,6 +1,6 @@
 # TaskFlow — Akıllı Proje Yönetimi
 
-Yazılım staj projesi kapsamında geliştirilen, tek sayfa (vanilla HTML/CSS/JS) Kanban tabanlı görev yönetim uygulaması.
+Yazılım staj projesi kapsamında geliştirilen, vanilla HTML/CSS/JS ile yazılmış Kanban tabanlı görev yönetim uygulaması.
 
 ![preview](https://img.shields.io/badge/demo-canlı-brightgreen) ![version](https://img.shields.io/badge/versiyon-2.0.0-blue) ![license](https://img.shields.io/badge/lisans-MIT-lightgrey)
 
@@ -37,7 +37,7 @@ Harici framework, build aracı veya bağımlılık yoktur.
 ## Kurulum
 
 ```bash
-git clone https://github.com/kullaniciadi/taskflow.git
+git clone https://github.com/Beray104/taskflow.git
 cd taskflow
 ```
 
@@ -66,7 +66,9 @@ cd taskflow
 
 ```
 taskflow/
-└── index.html   # Tüm uygulama tek dosyada (HTML + CSS + JS)
+├── index.html    # Sayfa yapısı (HTML)
+├── styles.css    # Tüm stiller (tema, layout, animasyonlar)
+└── app.js        # Uygulama mantığı (state, render, drag&drop, modal'lar)
 ```
 
 ---
